@@ -1,4 +1,4 @@
-package $org.example;
+package com.tony.design.patterns.study;
 
 /**
  * Hello world!

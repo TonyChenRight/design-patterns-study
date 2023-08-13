@@ -1,5 +1,49 @@
 # 设计模式总结 (23种)
 
+## 面向对象七大原则
+
+- 单一职责原则【SINGLE RESPONSIBILITY PRINCIPLE】: 一个类负责一项职责。
+- 里氏替换原则【LISKOV SUBSTITUTION PRINCIPLE】: 继承与派生的规则。
+- 依赖倒置原则【DEPENDENCE INVERSION PRINCIPLE】: 高层模块不应该依赖低层模块，二者都应该依赖其抽象；抽象不应该依赖细节；细节应该依赖抽象。即针对接口编程，不要针对实现编程。
+- 接口隔离原则【INTERFACE SEGREGATION PRINCIPLE】: 建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少。
+- 迪米特法则【LOW OF DEMETER】: 低耦合，高内聚。
+- 开闭原则【OPEN CLOSE PRINCIPLE】: 一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。
+- 组合/聚合复用原则【Composition/Aggregation Reuse Principle(CARP) 】: 尽量使用组合和聚合少使用继承的关系来达到复用的原则。
+
+## 设计模式23种总览
+
+### 创建型
+
+1. 单例模式（Singleton Pattern）
+2. 工厂方法模式（Factory Method）
+3. 抽象工厂模式 (Abstract Factory)
+4. 原型模式 (Prototype)
+5. 建造者模式 (Builder)
+
+### 结构型
+
+6. 代理模式 (Proxy Pattern)
+7. 适配器模式 (Adapter Class/Object)
+8. 装饰者模式 (Decorator Pattern)
+9. 桥接模式 (Bridge Pattern)
+10. 外观模式 (Facade)
+11. 组合模式 (Composite Pattern)
+12. 享元模式 (Flyweight Pattern)
+
+### 行为型
+
+13. 模版方法模式 (Template Method)
+14. 策略模式 (Strategy Pattern)
+15. 命令模式 (Command Pattern)
+16. 职责链模式 (Chain of Responsibility Pattern)
+17. 状态模式 (State Pattern)
+18. 观察者模式 (Observer Mode)
+19. 中介者模式 (Mediator Pattern)
+20. 迭代器模式 (Iterator Pattern)
+21. 访问者模式 (Visitor Pattern)
+22. 备忘录模式 (Memento Pattern)
+23. 解释器模式 (Interpreter Pattern)
+
 ## 一、创建型
 
 ### 1. 单例模式（Singleton Pattern）
